@@ -1,2 +1,7 @@
 rootProject.name = 'interview-prep'
+
 include 'array:two-sum'
+include 'array:buy-sell-stock'
+
+findProject(':array:buy-sell-stock')?.name = 'buy-sell-stock'
+
