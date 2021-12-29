@@ -4,4 +4,8 @@ include 'array:two-sum'
 include 'array:buy-sell-stock'
 
 findProject(':array:buy-sell-stock')?.name = 'buy-sell-stock'
+findProject(':array:two-sum')?.name = 'two-sum'
+include 'array:Contains Duplicate'
+findProject(':array:Contains Duplicate')?.name = 'Contains Duplicate'
+include 'contains-duplicate'
 
